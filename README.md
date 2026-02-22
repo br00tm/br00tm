@@ -97,12 +97,10 @@ class PedroBrito:
 
 | Projeto | Descrição | Stack |
 |--------|-----------|-------|
-| 🪨 **[DeepStoneAI](https://github.com/br00tm)** | CNN para segmentação e classificação de rochas ornamentais. TCC defendido com sucesso. Apresentado no **SBAI 2025** e **SBSE 2025**. | `Python` `PyTorch` `OpenCV` `ArduCam` |
-| 📊 **[InfraWatch](https://github.com/br00tm)** | Sistema de monitoramento DevOps com Kubernetes, RabbitMQ e MongoDB para deployment local. | `Kubernetes` `MongoDB` `RabbitMQ` `Docker` |
+| 📊 **[InfraWatch](https://github.com/br00tm/infrawatch)** | Sistema de monitoramento DevOps com Kubernetes, RabbitMQ e MongoDB para deployment local. | `Kubernetes` `MongoDB` `RabbitMQ` `Docker` |
 | 🎵 **[NLP-DISCOGRAFY](https://github.com/br00tm/NLP-DISCOGRAFY)** | Análise e processamento de linguagem natural aplicado a discografias musicais. | `Python` `NLP` `scikit-learn` |
 | 📅 **[GEC-Eventometro](https://github.com/br00tm/GEC-Eventometro)** | Plataforma de gerenciamento e métricas de eventos para comunidades. | `JavaScript` `HTML` `CSS` |
 | 👕 **[Venda-Camisas](https://github.com/br00tm/Venda-Camisas)** | Sistema de e-commerce para venda de camisetas com interface web. | `HTML` `CSS` `JavaScript` |
-| 🌐 **[Metalfes Metaverse](https://github.com/br00tm)** | Metaverso educacional — projeto acadêmico inovador de ensino imersivo. | `JavaScript` `WebGL` |
 
 </div>
 
