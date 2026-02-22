@@ -110,7 +110,7 @@ class PedroBrito:
 
 <div align="center">
 
-> 📄 **"Redes Neurais Convolucionais para Segmentação e Classificação de Rochas Ornamentais"**
+> 📄 **[Redes Neurais Convolucionais para Segmentação e Classificação de Rochas Ornamentais](https://repositorio.ifes.edu.br/handle/123456789/7211)**
 > 
 > Trabalho de Conclusão de Curso — IFES | Apresentado em **SBAI 2025** e **SBSE 2025**
 
