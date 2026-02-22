@@ -31,9 +31,9 @@ class PedroBrito:
     def focus(self):
         return [
             "🔬 Deep Learning para inspeção industrial de rochas ornamentais",
-            "☸️  Infraestrutura cloud-native com Kubernetes & observabilidade",
-            "☁️  Cloud Engineering — AWS, GCP, Oracle Cloud & Cloudflare R2",
-            "⚙️  Backend — APIs REST, microserviços, mensageria com RabbitMQ",
+            "☸️ Infraestrutura cloud-native com Kubernetes & observabilidade",
+            "☁️ Cloud Engineering — AWS, GCP, Oracle Cloud & Cloudflare R2",
+            "⚙️ Backend — APIs REST, microserviços, mensageria com RabbitMQ",
             "🔐 Bug Bounty & Pesquisa em Segurança",
             "📡 Sistemas embarcados com Raspberry Pi & ArduCam",
         ]
