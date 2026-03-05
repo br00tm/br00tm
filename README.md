@@ -103,7 +103,7 @@ class PedroBrito:
 | 🎵 **[NLP-DISCOGRAFY](https://github.com/br00tm/NLP-DISCOGRAFY)** | Análise e processamento de linguagem natural aplicado a discografias musicais. | `Python` `NLP` `scikit-learn` |
 | 📅 **[GEC-Eventometro](https://github.com/br00tm/GEC-Eventometro)** | Plataforma de gerenciamento e métricas de eventos para comunidades. | `JavaScript` `HTML` `CSS` |
 | 👕 **[Venda-Camisas](https://github.com/br00tm/Venda-Camisas)** | Sistema de e-commerce para venda de camisetas com interface web. | `HTML` `CSS` `JavaScript` |
-| 📊 **[PyBox](https://github.com/br00tm/pybox)** | PyBox é um container runtime construído do zero em Python puro, usando diretamente as primitivas do kernel Linux. | `Python3.11` `Linux 5.4+` `CGroupsv2` `OciCompatible` |
+| 🏗️ **[PyBox](https://github.com/br00tm/pybox)** | PyBox é um container runtime construído do zero em Python puro, usando diretamente as primitivas do kernel Linux. | `Python3.11` `Linux 5.4+` `CGroupsv2` `OciCompatible` |
 
 </div>
 
