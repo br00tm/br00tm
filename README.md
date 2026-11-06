@@ -74,17 +74,17 @@ class PedroBrito:
 
 <img src="https://skillicons.dev/icons?i=prometheus,grafana&theme=dark" />
 <br/>
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white)
-![VictoriaMetrics](https://img.shields.io/badge/VictoriaMetrics-621773?style=flat-square)
-![Jaeger](https://img.shields.io/badge/Jaeger-60D0E4?style=flat-square&logoColor=black)
-![Loki](https://img.shields.io/badge/Loki-F46800?style=flat-square)
-![ELK](https://img.shields.io/badge/ELK_Stack-005571?style=flat-square&logo=elasticstack&logoColor=white)
+<img src="https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white" alt="OpenTelemetry" />
+<img src="https://img.shields.io/badge/VictoriaMetrics-621773?style=flat-square" alt="VictoriaMetrics" />
+<img src="https://img.shields.io/badge/Jaeger-60D0E4?style=flat-square" alt="Jaeger" />
+<img src="https://img.shields.io/badge/Loki-F46800?style=flat-square" alt="Loki" />
+<img src="https://img.shields.io/badge/ELK_Stack-005571?style=flat-square&logo=elasticstack&logoColor=white" alt="ELK Stack" />
 
 **Backend, Data & Messaging**
 
 <img src="https://skillicons.dev/icons?i=py,nodejs,ts,cs,bash,fastapi,django,flask,mongodb,redis,postgres,mysql,kafka,rabbitmq&theme=dark" />
 <br/>
-![NATS](https://img.shields.io/badge/NATS_JetStream-27AAE1?style=flat-square&logo=natsdotio&logoColor=white)
+<img src="https://img.shields.io/badge/NATS_JetStream-27AAE1?style=flat-square&logo=natsdotio&logoColor=white" alt="NATS JetStream" />
 
 **AI & Computer Vision**
 
