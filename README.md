@@ -1,135 +1,138 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Pedro%20Brito&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=br00tm&descSize=22&descAlignY=60&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Pedro%20Brito&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=DevOps%20%C2%B7%20SRE%20%C2%B7%20Cloud%20Infrastructure&descSize=20&descAlignY=60&animation=fadeIn" width="100%"/>
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=600&lines=Systems+Information+%40+IFES;Computer+Vision+Engineer;DevOps+%7C+Cloud+%7C+Infrastructure;Bug+Bounty+%7C+Security+Researcher;AI+%26+Deep+Learning+Enthusiast)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=650&lines=DevOps+%26+Site+Reliability+Engineer;Cloud+Infrastructure+%E2%80%94+GCP+%26+AWS;Observability+%E2%80%94+OpenTelemetry+%C2%B7+Grafana;Application+Security+in+CI%2FCD;Computer+Vision+%26+Deep+Learning)](https://git.io/typing-svg)
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/br00tm)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/br00tm)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pedrolbrito)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pedrolbmoreira23@gmail.com)
+![Location](https://img.shields.io/badge/Brazil%20%C2%B7%20Remote%20(UTC--3)-302b63?style=for-the-badge&logo=googlemaps&logoColor=white)
 
 </div>
 
 ---
 
-## 🧠 Sobre mim
+## 👋 About me
+
+I'm a **DevOps / Site Reliability Engineer** who owns production cloud infrastructure end to end — from Terraform and CI/CD to observability, incident response and cost control. Today I run the GCP production stack of a high-traffic e-commerce integrator connected to Mercado Livre, Shopee and Amazon, where I'm the primary on-call for production incidents.
+
+Before that, I built and operated an edge-to-cloud computer vision platform for ornamental stone inspection — research I presented at **SBAI 2025** and **SBSE 2025**.
+
+I like understanding systems from the bottom up, which is why I wrote my own container runtime from scratch.
 
 ```python
 class PedroBrito:
     def __init__(self):
-        self.name       = "Pedro Brito"
-        self.alias      = "br00tm"
-        self.location   = "Espírito Santo, Brasil 🇧🇷"
-        self.education  = "Sistemas de Informação @ IFES"
-        self.role       = "Computer Vision | DevOps | Cloud & Backend Engineer"
+        self.name      = "Pedro Brito"
+        self.alias     = "br00tm"
+        self.location  = "Espírito Santo, Brazil 🇧🇷 (remote, UTC-3)"
+        self.education = "B.Sc. Information Systems @ IFES"
+        self.role      = "DevOps Engineer | Site Reliability Engineer"
+        self.languages = {"Portuguese": "native", "English": "B2"}
 
     @property
     def focus(self):
         return [
-            "🔬 Deep Learning para inspeção industrial de rochas ornamentais",
-            "☸️ Infraestrutura cloud-native com Kubernetes & observabilidade",
-            "☁️ Cloud Engineering — AWS, GCP, Oracle Cloud & Cloudflare R2",
-            "⚙️ Backend — APIs REST, microserviços, mensageria com RabbitMQ",
-            "🔐 Bug Bounty & Pesquisa em Segurança",
-            "📡 Sistemas embarcados com Raspberry Pi & ArduCam",
+            "☁️  Production cloud infrastructure on GCP & AWS",
+            "📈 Observability — OpenTelemetry, VictoriaMetrics, Jaeger, Loki, Grafana",
+            "🚨 Incident response & root-cause analysis",
+            "💸 FinOps — making the cloud bill smaller without breaking things",
+            "🔐 Application security in CI/CD (SAST, DAST, SCA, secret scanning)",
+            "🧠 Computer vision for industrial inspection",
         ]
-
-    @property
-    def thesis(self):
-        return "Redes Neurais Convolucionais para Segmentação e Classificação de Rochas Ornamentais"
 ```
 
 ---
 
-## 🚀 Tech Stack
+## ⚡ Recent highlights
+
+- 📉 **Cut metric cardinality by 85%** (2.2M → ~328K series) and fixed a memory leak in the OTel Collector `spanmetrics` connector.
+- 💰 **Reduced cloud security spend by 84%** (~R$8,700/month saved) by moving edge filtering from Cloud Armor Enterprise to Cloudflare.
+- 🛡️ **Reduced application vulnerabilities by 80%** by wiring SonarQube, Semgrep, Trivy, OWASP ZAP and GitLeaks into the pipelines.
+- 🔍 **Root-caused production incidents** — a MongoDB `COLLSCAN` on a 9M+ document collection, a V8 heap OOM behind a 503 cascade, and a GCP regional network incident that led to a 6-phase multi-region resilience plan.
+- 🧪 **99.21% accuracy** across 45 ornamental stone classes with a CNN (Xception) pipeline, delivered through CI/CD that cut the model release cycle from 30 to 10 days.
+
+---
+
+## 🧰 Tech stack
 
 <div align="center">
 
-### 💻 Linguagens
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+**Cloud & Infrastructure**
 
-### 🤖 Inteligência Artificial & Visão Computacional
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLOv8-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)
+<img src="https://skillicons.dev/icons?i=gcp,aws,terraform,docker,kubernetes,ansible,nginx,cloudflare,linux&theme=dark" />
 
-### ☁️ Cloud & DevOps
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare_R2-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+**CI/CD**
 
-### 🛡️ Segurança
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
-![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge&logo=wireguard&logoColor=white)
+<img src="https://skillicons.dev/icons?i=githubactions,gitlab,jenkins,bitbucket&theme=dark" />
 
-### ⚙️ Frameworks & Tools
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+**Observability**
+
+<img src="https://skillicons.dev/icons?i=prometheus,grafana&theme=dark" />
+<br/>
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white)
+![VictoriaMetrics](https://img.shields.io/badge/VictoriaMetrics-621773?style=flat-square)
+![Jaeger](https://img.shields.io/badge/Jaeger-60D0E4?style=flat-square&logoColor=black)
+![Loki](https://img.shields.io/badge/Loki-F46800?style=flat-square)
+![ELK](https://img.shields.io/badge/ELK_Stack-005571?style=flat-square&logo=elasticstack&logoColor=white)
+
+**Backend, Data & Messaging**
+
+<img src="https://skillicons.dev/icons?i=py,nodejs,ts,cs,bash,fastapi,django,flask,mongodb,redis,postgres,mysql,kafka,rabbitmq&theme=dark" />
+<br/>
+![NATS](https://img.shields.io/badge/NATS_JetStream-27AAE1?style=flat-square&logo=natsdotio&logoColor=white)
+
+**AI & Computer Vision**
+
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,raspberrypi&theme=dark" />
+
+**Security & Networking**
+
+![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white)
+![Semgrep](https://img.shields.io/badge/Semgrep-1B2A3A?style=flat-square)
+![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square)
+![OWASP ZAP](https://img.shields.io/badge/OWASP_ZAP-000000?style=flat-square&logo=owasp&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
+![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
 
 </div>
 
 ---
 
-## 🏆 Projetos em Destaque
+## 🏆 Featured projects
 
-<div align="center">
-
-| Projeto | Descrição | Stack |
-|--------|-----------|-------|
-| 📊 **[InfraWatch](https://github.com/br00tm/infrawatch)** | Sistema de monitoramento DevOps com Kubernetes, RabbitMQ e MongoDB para deployment local. | `Kubernetes` `MongoDB` `RabbitMQ` `Docker` |
-| 🎵 **[NLP-DISCOGRAFY](https://github.com/br00tm/NLP-DISCOGRAFY)** | Análise e processamento de linguagem natural aplicado a discografias musicais. | `Python` `NLP` `scikit-learn` |
-| 📅 **[GEC-Eventometro](https://github.com/br00tm/GEC-Eventometro)** | Plataforma de gerenciamento e métricas de eventos para comunidades. | `JavaScript` `HTML` `CSS` |
-| 👕 **[Venda-Camisas](https://github.com/br00tm/Venda-Camisas)** | Sistema de e-commerce para venda de camisetas com interface web. | `HTML` `CSS` `JavaScript` |
-| 🏗️ **[PyBox](https://github.com/br00tm/pybox)** | PyBox é um container runtime construído do zero em Python puro, usando diretamente as primitivas do kernel Linux. | `Python3.11` `Linux 5.4+` `CGroupsv2` `OciCompatible` |
-
-</div>
+| Project | Description | Stack |
+|---------|-------------|-------|
+| 🏗️ **[PyBox](https://github.com/br00tm/pybox)** | A container runtime built from scratch in pure Python, talking directly to Linux kernel primitives — namespaces, cgroups v2 and OverlayFS — to replicate Docker's core at the syscall level. | `Python 3.11` `Linux 5.4+` `cgroups v2` `OCI` |
+| 📊 **[InfraWatch](https://github.com/br00tm/infrawatch)** | DevOps monitoring system running on a local Kubernetes deployment, with RabbitMQ messaging and MongoDB storage. | `Kubernetes` `RabbitMQ` `MongoDB` `Docker` |
+| 🎵 **[NLP-DISCOGRAFY](https://github.com/br00tm/NLP-DISCOGRAFY)** | Natural language processing and analysis applied to music discographies. | `Python` `NLP` `scikit-learn` |
+| 📅 **[GEC-Eventometro](https://github.com/br00tm/GEC-Eventometro)** | Event management and metrics platform for communities. | `JavaScript` `HTML` `CSS` |
+| 👕 **[Venda-Camisas](https://github.com/br00tm/Venda-Camisas)** | Web storefront for selling T-shirts. | `HTML` `CSS` `JavaScript` |
 
 ---
 
-## 🔬 Pesquisa & Publicações
+## 🔬 Research & publications
 
-<div align="center">
+> 📄 **[Convolutional Neural Networks for Segmentation and Classification of Ornamental Stones](https://repositorio.ifes.edu.br/handle/123456789/7211)**
+> Undergraduate thesis — IFES · Presented at **SBAI 2025** and **SBSE 2025**
 
-> 📄 **[Redes Neurais Convolucionais para Segmentação e Classificação de Rochas Ornamentais](https://repositorio.ifes.edu.br/handle/123456789/7211)**
-> 
-> Trabalho de Conclusão de Curso — IFES | Apresentado em **SBAI 2025** e **SBSE 2025**
+An end-to-end computer vision pipeline for **automated industrial inspection** of marble and granite:
 
-</div>
-
-Desenvolvimento de pipeline completo de visão computacional para **inspeção industrial automatizada** de mármores e granitos, incluindo:
-
-- 🎥 Sistemas multi-câmera com **ArduCam 64MP** e **Raspberry Pi**
-- 🖼️ Algoritmos de **color correction** e padronização entre câmeras
-- 🧵 **Video stitching** para geração de panoramas de chapas de mármore
-- 🤖 Detecção automatizada em esteiras com redes **YOLO e CNN**
-- 📐 Calibração de câmeras e pipelines de processamento de imagem
+- 🎥 Multi-camera capture with **ArduCam 64MP** and **Raspberry Pi**
+- 🎨 Color correction and cross-camera standardization
+- 🧵 Video stitching to build full panoramas of stone slabs
+- 🤖 Automated conveyor-belt detection with **YOLO** and **CNN** models
+- 📐 Camera calibration and image processing pipelines
+- ☁️ Edge-to-cloud deployment (Docker Compose, K3s, NATS JetStream, WireGuard)
 
 ---
 
-## 📈 GitHub Stats
+## 📈 GitHub stats
 
 <div align="center">
 
@@ -144,33 +147,14 @@ Desenvolvimento de pipeline completo de visão computacional para **inspeção i
 
 ---
 
-## 🌐 Expertise em Infraestrutura
-
-```
-🏗️  Arquitetura de Sistemas
-├── ☸️  Kubernetes (K8s) — orquestração de containers
-├── 🐳 Docker — containerização de aplicações
-├── 🐇 RabbitMQ — mensageria assíncrona
-├── 🍃 MongoDB — banco de dados NoSQL
-└── 🔁 Nginx — reverse proxy & load balancer
-
-☁️  Cloud Storage & CDN
-├── Oracle Cloud (Object Storage)
-├── Cloudflare R2 (S3-compatible)
-└── AWS S3 / GCP Storage
-
-🔐 Networking & Segurança
-├── WireGuard VPN
-├── DHCP Server (Raspberry Pi)
-└── Bug Bounty & Pentest
-```
-
----
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=100&section=footer" width="100%"/>
+💬 **Open to remote DevOps / SRE opportunities** — feel free to reach out on [LinkedIn](https://linkedin.com/in/pedrolbrito) or by [email](mailto:pedrolbmoreira23@gmail.com).
+
+<br/>
 
 *"Any sufficiently advanced technology is indistinguishable from magic."* — Arthur C. Clarke
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=100&section=footer" width="100%"/>
 
 </div>
